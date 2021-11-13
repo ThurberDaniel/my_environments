@@ -11,4 +11,4 @@ def cool():
 
 print(v+d)
 
-print(cool())
+print(cool)
