@@ -9,4 +9,6 @@ def cool():
     v = 10
 
 
+print(v+d)
+
 print(cool())
