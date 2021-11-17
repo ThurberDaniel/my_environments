@@ -4,10 +4,6 @@ from flask_sqlalchemy import SQLAlchemy
 
 from forms import LoginForm, RegisterForm
 
-# from werkzeug.security import generate_password_hash, check_password_hash
-
-# Now create flask application object
-
 app = Flask(__name__)
 
 # Database Configuration and Creating object of SQLAlchemy
