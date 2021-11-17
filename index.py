@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 from forms import LoginForm, RegisterForm
 
 app = Flask(__name__)
-
+print(app)
 
 app.config['SECRET_KEY'] = '!9m@S-dTsfsfwwwhyIlW[pHQbN^'
 
