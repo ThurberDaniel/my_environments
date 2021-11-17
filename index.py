@@ -6,17 +6,14 @@ from forms import LoginForm, RegisterForm
 
 app = Flask(__name__)
 
-# Database Configuration and Creating object of SQLAlchemy
 
-app.config['SECRET_KEY'] = '!9m@S-dThyIlW[pHQbN^'
+app.config['SECRET_KEY'] = '!9m@S-dTsfsfwwwhyIlW[pHQbN^'
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:root@localhost/auth'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
-
-# Create User Model which contains id [Auto Generated], name, username, email and password
 
 
 class User(db.Model):
