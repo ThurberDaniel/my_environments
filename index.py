@@ -14,6 +14,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:root@localhost/auth'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
+db2 = db
 
 
 class User(db.Model):
