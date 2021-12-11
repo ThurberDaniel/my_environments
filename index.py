@@ -3,7 +3,7 @@ from flask import Flask, render_template, flash, redirect, request, session, log
 from flask_sqlalchemy import SQLAlchemy
 
 from forms import LoginForm, RegisterForm
-
+from flaskr import
 app = Flask(__name__)
 print(app)
 
