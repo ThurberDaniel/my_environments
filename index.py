@@ -3,7 +3,6 @@ from flask import Flask, render_template, flash, redirect, request, session, log
 from flask_sqlalchemy import SQLAlchemy
 
 from forms import LoginForm, RegisterForm
-from flaskr import
 app = Flask(__name__)
 print(app)
 
@@ -13,7 +12,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:root@localhost/auth'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-db = SQLAlchemy(app)
+# db = SQLAlchemy(app)
 
 
 class User(db.Model):
